@@ -10,7 +10,7 @@ version: '3.7'
 services:
  app:
   build:
-   context: .
+   context: ./app
    dockerfile: ./app_dir/Dockerfile
    target: debug
   image: app/app_debug:master
